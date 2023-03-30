@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,800');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 40px;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-weight: 400;
+}
+
+p {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+}
+
+.portada {
+    background-color: black;
+}
+
+.portada img {
+    width: 100%;
+}
+
+.informacion {
+    background-color: black;
+    display: inline-block;
+}
+
+.informacion .parrafos {
+    padding-left: 150px;
+    padding-top: 76px;
+    padding-right: 150px;
+    padding-bottom: 76px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.informacion .parrafos p {
+    float: left;
+    width: 50%;
+    font-size: 16px;
+}
+
+.informacion .parrafos img {
+    width: 399px;
+    height: 237px;
+}
+
+.caracteristicas {
+    background-color: #1E1A13;
+    text-align: center;
+    padding: 40px;
+}
+
+h2 {
+    font-size: 40px;
+    display: inline;
+}
+
+.caracteristicas .icono {
+    display: inline-block;
+    color: white;
+    padding-left: 80px;
+    padding-top: 80px;
+    padding-right: 80px;
+    padding-bottom: 25px;
+}
+
+.caracteristicas .icono p {
+    font-size: 30px;
+}
+
+.imagenes {
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imagenes img {
+    width: 316px;
+    height: 202px;
+    padding: 40px;
+}
+
+footer {
+    background-color: #1E1A13;
+    text-align: center;
+}
